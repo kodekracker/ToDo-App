@@ -1,0 +1,48 @@
+@media (max-width: 768px){
+    body{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px ){
+    body{
+        font-size: 25px;
+    }
+}
+.navbar{
+    padding-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+nav{
+    background: linear-gradient(rgb(78, 93, 108),rgb(107, 124, 142));
+}
+
+.container{
+    margin-bottom: 50px;
+}
+.panel-body{
+    padding: 0;
+}
+.counter{
+    font-weight: bold;
+}
+.table{
+    margin: 0;
+}
+.table tr{
+    border-bottom: 2px solid #C9C7C7;
+}
+.table td{
+    padding: 0.5em 1em !important;
+    font-size: 1.5em !important;
+}
+.jumbotron{
+    margin-top: 80px;
+    padding: 5px;
+}
+#delete{
+    cursor: pointer;
+}
+
