@@ -35,8 +35,18 @@ nav{
     border-bottom: 2px solid #C9C7C7;
 }
 .table td{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     padding: 0.5em 1em !important;
     font-size: 1.5em !important;
+}
+
+#task-text{
+    width: 90%;
+}
+#task-delete{
+    width: 10%;
 }
 .jumbotron{
     margin-top: 80px;

@@ -45,8 +45,8 @@
                         <!-- LOOP OVER THE TODOS IN $scope.todos -->
                         <table class="table table-striped">
                             <tr ng-repeat="todo in todos">
-                                <td><p>{{ todo.text }}</p></td>
-                                <td><span class="glyphicon glyphicon-trash" ng-click="deleteTodo(todo._id)" id="delete"></span></td>
+                                <td id="task-text"><p>{{ todo.text }}</p></td>
+                                <td id="task-delete"><span class="glyphicon glyphicon-trash" ng-click="deleteTodo(todo._id)" id="delete"></span></td>
                             </tr>
                         </table>
                     </div>
